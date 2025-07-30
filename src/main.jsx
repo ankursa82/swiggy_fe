@@ -12,6 +12,7 @@ import RestaurantDetails from './components/RestaurantDetails.jsx'
 import Clock from './components/Clock.jsx'
 import Cart from './components/Cart.jsx'
 import Login from './components/Login.jsx'
+import Search from './components/Search.jsx'
 
 const appRouter = createBrowserRouter([
   {
@@ -51,6 +52,10 @@ const appRouter = createBrowserRouter([
         path: "/cart",
         element: <Cart />
       },
+      {
+        path: "/search",
+        element: <Search/>
+      }
     ]
   },
 ])
