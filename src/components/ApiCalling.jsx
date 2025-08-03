@@ -23,7 +23,7 @@ const ApiCalling = () => {
                 }
               });
               console.log(resp , "restaurant");
-              //setAllRestaurantArr(resp.data);
+              setAllRestaurantArr(resp.data);
 
           }
           calling()
